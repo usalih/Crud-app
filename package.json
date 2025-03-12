@@ -1,0 +1,36 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "CRUD APPLICATION",
+  "keywords": [
+    "CRUD",
+    "MONGODB"
+  ],
+  "homepage": "https://github.com/usalih/Crud-app#readme",
+  "bugs": {
+    "url": "https://github.com/usalih/Crud-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usalih/Crud-app.git"
+  },
+  "license": "ISC",
+  "author": "USMAN SALIU",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
